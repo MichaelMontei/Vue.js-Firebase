@@ -14,3 +14,11 @@ What is Vue?
 - Data and templates 
 - Click events (methods, function and inline)
 - Conditional rendering in Vue
+
+### Chapter 2: Learning the Basics
+
+- Other mouse events
+- Outputting lists v-for
+- attribute binding
+- Dynamic classes
+
