@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Learning Vue</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+<h1>Hello, Vue :)</h1>
+
+<div id="app">
+    <p>{{ title }} - {{ author }} - {{ age }}</p>
+
+    <button v-on:click="age++">Increase age</button>  // Here we dont need to put age inside brackets cause we dont want to output the view, just use it in our JS script.
+    <button v-on:click="age--">Decrease age</button>
+
+<!--    <div @click="title ='something else'">Change Book title</div>-->  // This is changed as soon as we click on the sentence
+    <div @click="changeTitle">Change Book title</div> // We can also change this inside our app.js
+</div>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
