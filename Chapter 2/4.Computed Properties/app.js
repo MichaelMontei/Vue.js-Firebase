@@ -14,6 +14,11 @@ const app = Vue.createApp({           // We create a function inside our variabl
         toggleShowBooks (){
             this.showBooks = !this.showBooks          // Here we call the Boolean in the return.
         },
+    computed: {
+        filteredBooks: function () {
+            return this.books.filter((book) => book.isFav)
+        }
+    }
     }
 })
 
