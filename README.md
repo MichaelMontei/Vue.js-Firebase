@@ -1,5 +1,5 @@
 # Vue.js-Learning-Curve
-Learning Vue.js
+Learning Vue.js Udemy Course By The Net Ninja
 
 ![Vue](https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTZfMjY2/MDAxNTcxMTgyMjIyODQ0.xSg5-1hPPEdwZlg_05HAL2aMZWM6BpFyHpksi9OHpbwg.xQoxPMZ4SQPCtpe6-UyCcYWAoZo43uZnGuIiUvSEwusg.JPEG.jhc9639/Vue.js-cta-main.jpg?type=w800)
 
@@ -29,3 +29,4 @@ What is Vue?
 - After this lets run the command npm install -g @vue/cli.
 - Then we navigate to our project folder and: vue create (projectname).
 - It will now ask you for some features ( Babel, ESlint) Select the features you would like to have.
+- To run your project simple do: npm run serve - It will open the localhost on port 8080.

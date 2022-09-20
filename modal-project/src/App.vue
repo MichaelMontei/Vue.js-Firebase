@@ -1,15 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>{{ title }}</h1>
+  <input type="text" ref="name"><br><br>
+  <button @click="handleClick">Click me</button>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
+  data(){
+    return {
+      title: 'My first Vue App :)'
+    }
+  },
+  methods: {
+    handleClick() {
+      console.log(this.$refs.name)  // We can acces this by calling the refs inside the template with the name.
+      this.$refs.name.classList.add('active') // With this method we can add a class active to this ref.
+      this.$refs.name.focus() // focus goes to that input field.
+    }
   }
 }
 </script>
@@ -23,4 +31,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+
 </style>
