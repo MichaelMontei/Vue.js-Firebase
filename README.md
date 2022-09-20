@@ -1,7 +1,7 @@
 # Vue.js-Learning-Curve
 Learning Vue.js
 
-Vue JS by the Net Ninja.
+![Vue](images/Vue.JPG)
 
 What is Vue?
 - Front-end, Javascript / Typescript Framework.
