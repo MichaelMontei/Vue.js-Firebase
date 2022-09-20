@@ -37,3 +37,10 @@ What is Vue?
 
 #### * What Terminology? *
 ![Terminology](https://user-images.githubusercontent.com/103993166/191213032-9e3fa6da-c278-4284-94a3-6b22d72cf442.JPG)
+
+#### Lets make our first component! 
+Inside the new component we make a template and some styling. 
+To add this component to the view we need to do 3 things:
+- first we import our component in our App.Vue inside the script tag
+- then we need to add components: { Modal } 
+- Now we can actually use this in our template inside the App.vue as <Modal /> same as in React.
