@@ -1,7 +1,7 @@
 # Vue.js-Learning-Curve
 Learning Vue.js
 
-![Vue](images/Vue.JPG)
+![Vue](https://mblogthumb-phinf.pstatic.net/MjAxOTEwMTZfMjY2/MDAxNTcxMTgyMjIyODQ0.xSg5-1hPPEdwZlg_05HAL2aMZWM6BpFyHpksi9OHpbwg.xQoxPMZ4SQPCtpe6-UyCcYWAoZo43uZnGuIiUvSEwusg.JPEG.jhc9639/Vue.js-cta-main.jpg?type=w800)
 
 What is Vue?
 - Front-end, Javascript / Typescript Framework.
