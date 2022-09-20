@@ -44,3 +44,9 @@ To add this component to the view we need to do 3 things:
 - first we import our component in our App.Vue inside the script tag
 - then we need to add components: { Modal } 
 - Now we can actually use this in our template inside the App.vue as <Modal /> same as in React.
+
+### Chapter 4: The Vue CLI & Bigger Projects ( Part2 )
+
+- Scoped and Global CSS
+- Learned by passing through Props and handling props on classes.<br> Example: Whenever this modal === Sale it will color red/white
+  ![Modal](https://user-images.githubusercontent.com/103993166/191255233-d5a97be3-0221-4b6d-b511-e10544265d7e.JPG)
