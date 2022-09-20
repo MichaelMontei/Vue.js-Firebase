@@ -30,3 +30,10 @@ What is Vue?
 - Then we navigate to our project folder and: vue create (projectname).
 - It will now ask you for some features ( Babel, ESlint) Select the features you would like to have.
 - To run your project simple do: npm run serve - It will open the localhost on port 8080.
+- Understanding the layout structure from Vue (components, templates, ...)
+
+####  * Show me some structure in VUE *
+![Structure](https://user-images.githubusercontent.com/103993166/191212452-5937158c-bd2a-4d5f-b89f-9fff3331301d.JPG)
+
+#### * What Terminology? *
+![Terminology](https://user-images.githubusercontent.com/103993166/191213032-9e3fa6da-c278-4284-94a3-6b22d72cf442.JPG)
